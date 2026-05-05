@@ -18,6 +18,18 @@ Launch and manage compute resources. Includes:
 - Security Groups for web and SSH access.
 - Dynamic resource discovery using Terraform data sources.
 
+### 3. [Securing Amazon S3](./s3-security)
+Manage and secure S3 storage. Includes:
+- S3 Bucket Policies and ACLs.
+- Public Access Blocks.
+- Modular S3 bucket configuration.
+
+### 4. [AWS CLI and SDK Setup](./aws-cli-sdk)
+Setting Up AWS CLI and SDKs for DevOps Automation. Includes:
+- Dedicated IAM user for automation.
+- Programmatic access keys generation.
+- Read-only policy attachment for foundational security.
+
 ## 🛠 Prerequisites
 
 - [Terraform](https://www.terraform.io/downloads.html) (v1.0+)
@@ -30,6 +42,8 @@ Launch and manage compute resources. Includes:
 .
 ├── vpc-networking/    # VPC and networking infrastructure
 ├── ec2-instance/      # Compute and security group configuration
+├── s3-security/       # S3 storage and security configurations
+├── aws-cli-sdk/       # IAM users and credentials for CLI/SDK automation
 ├── CONTRIBUTING.md    # Contribution guidelines
 └── LICENSE            # Project license
 ```
