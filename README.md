@@ -30,6 +30,12 @@ Setting Up AWS CLI and SDKs for DevOps Automation. Includes:
 - Programmatic access keys generation.
 - Read-only policy attachment for foundational security.
 
+### 5. [CloudWatch Fundamentals](./cloudwatch-fundamentals)
+AWS CloudWatch Fundamentals: Metrics and Alarms Guide. Includes:
+- CloudWatch Metric Alarms.
+- SNS Topic for alarm notifications.
+- Monitoring EC2 CPU utilization.
+
 ## 🛠 Prerequisites
 
 - [Terraform](https://www.terraform.io/downloads.html) (v1.0+)
@@ -44,6 +50,7 @@ Setting Up AWS CLI and SDKs for DevOps Automation. Includes:
 ├── ec2-instance/      # Compute and security group configuration
 ├── s3-security/       # S3 storage and security configurations
 ├── aws-cli-sdk/       # IAM users and credentials for CLI/SDK automation
+├── cloudwatch-fundamentals/ # CloudWatch metrics and alarms configuration
 ├── CONTRIBUTING.md    # Contribution guidelines
 └── LICENSE            # Project license
 ```
